@@ -1,6 +1,6 @@
 leiviskat = int(input("Anna leivistkät: "))
 naulat = int(input("Anna naulat: "))
-luodit = int(input("Anna luodit: "))
+luodit = float(input("Anna luodit: "))
 
 luodit_yht = leiviskat * 20 * 32 + naulat * 32
 grammat = luodit_yht * 13.3
